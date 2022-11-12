@@ -545,7 +545,7 @@ li {
 .critique-problems {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
   gap: 1em;
   margin-right: 0.5em;
@@ -554,7 +554,7 @@ li {
 .critique-solutions {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-left: 0.5em;
   width: 50%;
   gap: 1em;
@@ -579,13 +579,13 @@ li {
 }
 
 .critique-problem p {
-  text-align: center;
+  text-align: start;
   margin: 1em;
   font-size: 0.75em;
 }
 
 .critique-solution p {
-  text-align: center;
+  text-align: start;
   margin: 1em;
   font-size: 0.75em;
 }
