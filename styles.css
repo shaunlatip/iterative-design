@@ -436,6 +436,89 @@ li {
   font-size: 1.5em;
 }
 
+.subtasks {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.subtask {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+  padding: 2em;
+  gap: 0.5em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subtask-title .subtitle {
+  text-align: center;
+}
+
+.subtask-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* background-color: rgba(199, 214, 255, 1); */
+  border-radius: 12px;
+}
+
+.subtask-description p {
+  text-align: start;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.subtask-expected {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* background-color: #FFF5C2; */
+  border-radius: 12px;
+}
+
+.subtask-expected p {
+  text-align: start;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.subtask-results {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.subtask-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+  margin: 1em;
+  border-radius: 12px;
+}
+
+.subtask-result b {
+  margin-top: 1em;
+}
+
+.subtask-result p {
+  margin: 1em;
+}
+
+.subtask-result-a {
+  background-color: #FFF5C2;
+}
+
+.subtask-result-b {
+  background-color: #FFD7D7;
+}
+
+.subtask-result-c {
+  background-color: rgba(199, 214, 255, 1);
+}
+
 .critique-section {
   display: flex;
   flex-direction: column;
